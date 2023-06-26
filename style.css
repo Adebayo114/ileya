@@ -1,0 +1,128 @@
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4.5vw;
+    color: white;
+    margin-top: 5px;
+  }
+  
+  body {
+    background-image: url(./assets/pexels-ahmed-aqtai-2233416.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  #loginForm {
+    display: grid;
+    justify-content: center;
+  }
+  
+  h2 {
+    text-align: center;
+    color: white;
+    margin-top: -10px;
+  }
+  
+  #check {
+    background-image: url(./assets/redo.jpg);
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(253, 253, 253);
+    border-radius: 5px;
+    box-shadow: 5px 5px 9px 1px rgb(121, 42, 12);
+    margin-top: 2vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .info {
+    display: grid;
+    justify-content: center;
+    background-color: rgb(252, 252, 252);
+    border-radius: 5px;
+    box-shadow: 5px 5px 9px 1px rgb(121, 42, 12);
+    margin-top: -1vh;
+    background-image: url(./assets/pexels-burak-the-weekender-704623.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .btn {
+    display: flex;
+    justify-content: center;
+    border-radius: 100px;
+  }
+  
+  legend {
+    color: rgb(14, 13, 11);
+  }
+  
+  #submitForm {
+    border-radius: 5px;
+    background-color: rgb(50, 113, 117);
+    border-style: solid;
+  }
+  
+  #submitForm:hover {
+    background-color: rgb(158, 136, 23);
+  }
+  
+  #submitForm:active {
+    background-color: white;
+  }
+  
+  hr {
+    background-color: white;
+    height: 2px;
+  }
+  
+  #surname,
+  #name,
+  #optionNames {
+    border-radius: 5px;
+  }
+  
+  /* Media Queries */
+  
+  /* Styles for smaller screens (e.g., smartphones) */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 6vw;
+    }
+    
+    #check,
+    .info {
+      margin-top: 5vh;
+    }
+    
+    #submitForm {
+      width: 80%;
+      margin: 0 auto;
+    }
+  }
+  
+  /* Styles for medium-sized screens (e.g., tablets) */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    h1 {
+      font-size: 3vw;
+    }
+    
+    #check,
+    .info {
+      margin-top: 3vh;
+    }
+  }
+  
+  /* Styles for larger screens (e.g., desktops) */
+  @media (min-width: 1025px) {
+    h1 {
+      font-size: 45px;
+    }
+  }
+  

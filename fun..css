@@ -1,0 +1,95 @@
+body{
+    background-color: bisque;
+}
+
+img{
+    border-radius: 30px;
+    width: 250px; 
+    box-shadow: 2px 2px 5px 4px rgb(243, 208, 137);
+}
+
+.fun{
+    background-image: url(./assets/2560px-Traditional_way_of_cooking_in_Nigeria.jpg);
+    /* height: 300px; */
+    width: 350px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 50px 0;
+    margin-left: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 5px rgb(49, 47, 47);
+   
+}
+
+.main{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+p{
+    
+    background-color:whitesmoke;
+    border-radius: 6PX;
+    width: 330px; 
+    padding: 10px -4;
+    padding-left: 10px;
+    box-shadow: 2px 2px 5px 4px rgb(73, 70, 70);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.fun:hover{
+    transform: scale(1.05);
+    margin-right: 5px;
+    margin-left: 1opx;
+}
+
+.img2{
+    background-image: url(./assets/p065jzb2.jpg);
+    width: 350px; 
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    margin-left: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 5px rgb(49, 47, 47);
+   
+}
+
+.img2:hover{
+    transform: scale(1.05);
+    margin-right: 5px;
+    margin-left: 1opx;
+}
+
+.left{
+    size: 10px;
+    width: 15px;
+    }
+  
+    .left:hover{
+      background-color:rgb(243, 206, 162);
+    }
+
+    .family{
+        background-image: url(./assets/istockphoto-466517172-612x612.jpg);
+        width: 350px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0;
+        margin-left: 350px;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px 5px rgb(49, 47, 47);
+        margin-bottom: 25px;
+    }
+    .family:hover{
+        transform: scale(1.05);
+    margin-right: 5px;
+    margin-left: 1opx;
+      }

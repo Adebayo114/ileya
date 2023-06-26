@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="login" id="loginForm">
+    <h1>Special Invitation</h1>
+
+    <h2>Please input your name</h2>
+
+<div id ="check">
+     <p> <input id="mrCheckbox" type="checkbox" > Mr</p>  
+     <p><input id="mrsCheckbox" type="checkbox">Mrs</p>
+</div>
+
+<hr>
+<div class="info">
+    <fieldset>
+    <legend>Name</legend>
+        <input type="text" id="name" placeholder="name" >
+    </fieldset>
+<br>
+<br>
+<fieldset>
+        <legend>Surname</legend>
+        <input  type="text" id="surname" placeholder="surname">
+        </fieldset>
+<br>
+<br>
+    <fieldset>
+        <legend>
+        <label for = "options" >Attending As ?</label>
+        <select name="option-names" id="optionNames">
+            <option value="/"></option>
+            <option value="Family">Family</option>
+            <option value="Friends">Friends</option>
+            <option value="Well Wisher">Well Wisher</option>
+            <option value="Co - Workers">Co - Workers</option>
+        </select>
+    </legend>
+        </fieldset>
+   
+</form>
+<br>
+<br>
+
+<div class="btn">
+  <button id="submitForm">Done</button>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
